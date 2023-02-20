@@ -1,0 +1,18 @@
+h1{
+	text-align:center;padding-top:20px;color:gray;font-size:550%;
+}
+.form_container{
+	margin:0% 30%;
+	width:30%;
+	border:1px black solid;
+	display:grid;
+	justify-content:center;
+}
+input{
+	width:99%;
+}
+#Submit{
+	margin-top:5px;
+	border:1px black solid;
+	border-radius:10px;
+}
