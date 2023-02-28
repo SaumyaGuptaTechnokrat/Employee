@@ -17,7 +17,7 @@ String lName=request.getParameter("lName");
 String FullName = request.getParameter("fullName");
 Employee e = new Employee();
 if((List<Employee>)EmployeeDAO.search()==e.getFName()){
-	response.sendRedirect("EmployeeList.jsp");
+	response.sendRedirect("EmployeeList.html");
 }
 
 %>
