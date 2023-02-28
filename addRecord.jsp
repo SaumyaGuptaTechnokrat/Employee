@@ -21,7 +21,7 @@
   Employee e=new Employee(fname,lname,age,gender,salary,doj,country,city,dep);
   if(EmployeeDAO.save(e)!=0)
   {
-	  response.sendRedirect("EmployeeList.jsp");
+	  response.sendRedirect("EmployeeList.html");
   }
 %>
 </body>
